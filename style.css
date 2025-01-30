@@ -94,6 +94,21 @@ h2 {
     background: #444;
 }
 
+pre {
+    background: #222;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto;
+    font-family: monospace;
+}
+
+code {
+    font-size: 14px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
 /* Footer */
 footer {
     background: #222;
