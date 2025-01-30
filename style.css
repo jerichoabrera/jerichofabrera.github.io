@@ -70,6 +70,30 @@ h2 {
     transform: scale(1.05);
 }
 
+/* Skills Gallery */
+.skills-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.skill {
+    background: #222;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s;
+}
+
+.skill:hover {
+    background: #444;
+}
+
 /* Footer */
 footer {
     background: #222;
